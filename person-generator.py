@@ -2,15 +2,14 @@
 # CS 361
 # Person Generator Project
 #
-# =================================================================================================
-# This program takes a selected state along with an amount and generates
-# a list of random addresses from that state, outputting the list
-# into a CSV file and displaying the generated data in the GUI.
-# With the command line, an input file can be passed in with <python person-generator.py input.csv>.
-# If using the command line, the layout of the input CSV file must be state followed
-# by number of addresses to generate. The program can also be started normally
-# from the command line with <python person-generator.py>.
-# ==================================================================================================
+# =========================================================================================
+# This program takes a selected state along with an amount and generates a list of
+# random addresses from that state, outputting the list into a CSV file and displaying
+# the generated data in the GUI. With the command line, an input file can be passed
+# in with <python person-generator.py input.csv>. If using the command line, the layout of
+# the input CSV file must be state followed by number of addresses to generate. The program
+# can also be started normally from the command line with <python person-generator.py>.
+# =========================================================================================
 import tkinter as tkinter
 import tkinter.ttk
 import csv
